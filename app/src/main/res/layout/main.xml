@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:onClick="setNormalStyle"
+            android:text="@string/normal" />
+
+        <Button
+            android:id="@+id/btnBigTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="4dip"
+            android:onClick="setBigTextStyle"
+            android:text="@string/big_text_style" />
+
+        <Button
+            android:id="@+id/btnBigPicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="4dip"
+            android:onClick="setBigPictureStyle"
+            android:text="@string/big_picture_style" />
+
+        <Button
+            android:id="@+id/btnInboxStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="4dip"
+            android:onClick="setInboxStyle"
+            android:text="@string/inbox_style" />
+
+        <Button
+            android:id="@+id/btnTickerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="4dip"
+            android:onClick="setCustomView"
+            android:text="@string/ticker_text" />
+
+        <Button
+            android:id="@+id/btnProgress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="4dip"
+            android:onClick="setCustomView"
+            android:text="@string/progress" />
+
+        <Button
+            android:id="@+id/btnProgressContinuous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="4dip"
+            android:onClick="setCustomView"
+            android:text="@string/progress_continuous" />
+
+        <Button
+            android:id="@+id/btnCustom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="4dip"
+            android:onClick="setCustomView"
+            android:text="@string/custom_view" />
+
+    </LinearLayout>
+
+</ScrollView>
